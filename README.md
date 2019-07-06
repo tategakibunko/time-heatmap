@@ -2,6 +2,8 @@
 
 Measure heatmap of time-written sentences in Japanese novel.
 
+## Usage
+
 ```bash
 cat mon-UFF8.txt | ./time_heatmap.py
 
@@ -9,4 +11,6 @@ cat mon-UFF8.txt | ./time_heatmap.py
 score: 0.223393(sentence_size = 3778, total = 256, entropy = 3.296792)
 ```
 
-LICENSE: MIT
+## License
+
+MIT
