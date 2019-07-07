@@ -19,7 +19,6 @@ def print_score(corpuses):
   time_maps = [is_time_words(words) for words in corpuses]
   total = np.sum(time_maps)
   if total <= 0:
-    print("nid: " + str(nid))
     print("score: 0\n")
     return 0
   sentence_size = len(time_maps)
